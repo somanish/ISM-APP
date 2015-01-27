@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<de.hdodenhof.circleimageview.CircleImageView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/post_pro_pic"
+    android:src="@raw/male_profile"
+    android:layout_width="@dimen/nav_list_pro_pic_width"
+    android:layout_height="@dimen/nav_list_pro_pic_height"
+    android:layout_margin="@dimen/pro_pic_margin"
+    app:border_width="@dimen/pro_pic_border_width"
+    app:border_color="@color/pro_pic_border_color"
+    tools:showIn="@layout/nav_list_item"/>

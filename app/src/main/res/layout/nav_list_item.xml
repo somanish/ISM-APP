@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <include layout="@layout/profile_info_container"/>
+
+    <TextView
+        android:id="@+id/nav_item"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/listPreferredItemHeight"
+        android:paddingLeft="?attr/listPreferredItemPaddingLeft"
+        android:gravity="center_vertical"
+        android:drawableLeft="@drawable/ic_user"
+        android:background="@drawable/list_item_bg"
+        android:text="Home"
+        android:textSize="@dimen/nav_list_item_size"
+        android:textColor="@color/text_basic_color"/>
+
+</LinearLayout>

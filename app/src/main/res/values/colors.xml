@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="nav_drawer_list">#2f2f2f</color>
+    <color name="nav_drawer_list_light">#4f4f4f</color>
+    <color name="text_basic_color">#ffffff</color>
+    <color name="pro_pic_border_color">#ffffff</color>
+
+    <!-- post elements colors -->
+    <color name="post_name_display">#000000</color>
+    <color name="post_academic_display">#4f4f4f</color>
+    <color name="post_content_text">#000000</color>
+    <color name="post_comment_counter">#000000</color>
+    <color name="post_comment_button">#4f4f4f</color>
+    <color name="post_in_divider">#8f8f8f</color>
+    <color name="post_elapsed_time">#4f4f4f</color>
+    <color name="post_bg_color">#FFFFFF</color>
+</resources>

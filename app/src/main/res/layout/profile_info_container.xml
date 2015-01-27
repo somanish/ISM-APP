@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/profile_info_container"
+    android:gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/profile_info_cotainer_padding"
+    android:clickable="false"
+    tools:showIn="@layout/nav_list_item">
+
+    <include layout="@layout/profile_pic_view"/>
+
+    <TextView
+        android:id="@+id/post_full_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Majeed Siddiqui"
+        android:textStyle="bold"
+        android:textSize="@dimen/full_name_text_size"
+        android:textColor="#FFFFFF"/>
+
+    <TextView
+        android:id="@+id/post_academic_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3rd - BTech - CSE"
+        android:textSize="@dimen/academic_info_text_size"
+        android:textColor="#FFFFFF"/>
+
+</LinearLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="nav_list_item_size">15sp</dimen>
+    <dimen name="nav_list_pro_pic_width">96dp</dimen>
+    <dimen name="nav_list_pro_pic_height">96dp</dimen>
+    <dimen name="separator_height">0.5dp</dimen>
+    <dimen name="pro_pic_border_width">0.5dp</dimen>
+    <dimen name="pro_pic_margin">2dp</dimen>
+    <dimen name="full_name_text_size">15sp</dimen>
+    <dimen name="academic_info_text_size">10sp</dimen>
+    <dimen name="separator_margin_top">10dp</dimen>
+    <dimen name="separator_margin_bottom">10dp</dimen>
+    <dimen name="separator_margin_left">20dp</dimen>
+    <dimen name="separator_margin_right">20dp</dimen>
+    <dimen name="profile_info_cotainer_padding">5dp</dimen>
+    <dimen name="nav_drawer_width">240dp</dimen>
+
+    <!-- **post elements dimens** -->
+
+    <!-- post user info container dimens -->
+    <dimen name="post_user_info_container_padding_left">16dp</dimen>
+    <dimen name="post_user_info_container_padding_right">16dp</dimen>
+    <dimen name="post_user_info_container_padding_top">13dp</dimen>
+    <dimen name="post_user_info_container_padding_bottom">13dp</dimen>
+
+    <!-- pro pic dimens -->
+    <dimen name="post_pro_pic_width">70dp</dimen>
+    <dimen name="post_pro_pic_height">70dp</dimen>
+    <dimen name="post_pro_pic_margin_right">10dp</dimen>
+
+    <!-- post name display dimen -->
+    <dimen name="post_name_size">15sp</dimen>
+
+    <!-- post academic info display dimen -->
+    <dimen name="post_academic_info_size">10sp</dimen>
+
+    <!-- post in divider dimens -->
+    <dimen name="post_in_divider_height">0.5dp</dimen>
+    <dimen name="post_in_divider_width">1dp</dimen>
+    <dimen name="post_in_divider_margin_left">16dp</dimen>
+    <dimen name="post_in_divider_margin_right">16dp</dimen>
+
+    <!-- post content text dimens -->
+    <dimen name="post_content_text_size">15sp</dimen>
+    <dimen name="post_content_text_padding_left">16dp</dimen>
+    <dimen name="post_content_text_padding_right">16dp</dimen>
+    <dimen name="post_content_text_padding_top">10dp</dimen>
+    <dimen name="post_content_text_padding_bottom">8dp</dimen>
+
+    <!-- post content image dimens -->
+    <dimen name="post_content_image_height">300dp</dimen>
+    <dimen name="post_content_image_margin_bottom">2dp</dimen>
+
+    <!-- post comment counter text dimens -->
+    <dimen name="post_comment_counter_size">13sp</dimen>
+    <dimen name="post_comment_counter_padding_bottom">10dp</dimen>
+    <dimen name="post_comment_counter_padding_left">16dp</dimen>
+    <dimen name="post_comment_counter_padding_right">16dp</dimen>
+
+    <!-- post buttons container dimens -->
+    <dimen name="post_button_container_padding">10dp</dimen>
+    <dimen name="post_button_text_size">15sp</dimen>
+
+    <!-- post elapsed time dimens -->
+    <dimen name="post_elapsed_time_size">15sp</dimen>
+
+    <!-- **End of post elements dimens** -->
+
+</resources>

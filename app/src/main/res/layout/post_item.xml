@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/post_bg_color">
+
+    <RelativeLayout
+        android:paddingLeft="@dimen/post_user_info_container_padding_left"
+        android:paddingTop="@dimen/post_user_info_container_padding_top"
+        android:paddingBottom="@dimen/post_user_info_container_padding_bottom"
+        android:paddingRight="@dimen/post_user_info_container_padding_right"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/post_pro_pic"
+            android:src="@raw/download"
+            android:layout_width="@dimen/post_pro_pic_width"
+            android:layout_height="@dimen/post_pro_pic_height"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginRight="@dimen/post_pro_pic_margin_right"/>
+
+        <TextView
+            android:id="@+id/post_full_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/post_pro_pic"
+            android:text="Majeed Siddiqui"
+            android:typeface="sans"
+            android:textAllCaps="true"
+            android:textSize="@dimen/post_name_size"
+            android:textColor="@color/post_name_display"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/post_academic_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3rd.BTech.CSE"
+            android:typeface="normal"
+            android:layout_below="@id/post_full_name"
+            android:layout_toRightOf="@id/post_pro_pic"
+            android:textColor="@color/post_academic_display"
+            android:textSize="@dimen/post_academic_info_size"/>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/post_in_divider_height"
+        android:background="#dfdfdf"/>
+
+    <TextView
+        android:id="@+id/post_text_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello! This is my first post :)"
+        android:textSize="@dimen/post_content_text_size"
+        android:textColor="@color/post_content_text"
+        android:typeface="sans"
+        android:paddingTop="@dimen/post_content_text_padding_top"
+        android:paddingLeft="@dimen/post_content_text_padding_left"
+        android:paddingRight="@dimen/post_content_text_padding_right"
+        android:paddingBottom="@dimen/post_content_text_padding_bottom"/>
+
+    <ImageView
+        android:id="@+id/post_content_pic"
+        android:src="@raw/download"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/post_content_image_height"
+        android:layout_marginBottom="@dimen/post_content_image_margin_bottom"/>
+
+    <TextView
+        android:id="@+id/post_counter_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="8 comments"
+        android:textSize="@dimen/post_comment_counter_size"
+        android:textColor="@color/post_comment_counter"
+        android:paddingBottom="@dimen/post_comment_counter_padding_bottom"
+        android:paddingLeft="@dimen/post_comment_counter_padding_left"
+        android:paddingRight="@dimen/post_comment_counter_padding_right"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:background="@drawable/post_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/post_button_container_padding">
+
+        <TextView
+            android:typeface="sans"
+            android:id="@+id/post_comment_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="COMMENT"
+            android:textColor="@color/post_comment_button"
+            android:textStyle="bold"
+            android:textSize="@dimen/post_button_text_size"/>
+
+        <View
+            android:layout_width="@dimen/post_in_divider_width"
+            android:layout_height="match_parent"
+            android:background="@color/post_in_divider"
+            android:layout_marginLeft="@dimen/post_in_divider_margin_left"
+            android:layout_marginRight="@dimen/post_in_divider_margin_left"/>
+
+        <TextView
+            android:typeface="normal"
+            android:id="@+id/post_time_elapsed_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="30 min ago"
+            android:textColor="@color/post_elapsed_time"
+            android:textSize="@dimen/post_elapsed_time_size"/>
+    </LinearLayout>
+</LinearLayout>

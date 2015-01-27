@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ISM APP Beta</string>
+
+    <!-- Activity titles -->
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_sign_up">Sign Up</string>
+
+    <!-- Main Activity menu labels -->
+    <string name="action_settings">Settings</string>
+
+    <!-- LogInFragment Layout labels -->
+    <string name="label_login_btn">Log In</string>
+    <string name="label_sign_up_btn">Sign Up</string>
+
+    <!-- LogInFragment error messages -->
+    <string name="error_empty_user_name">Please enter your username</string>
+    <string name="error_empty_pass">Please enter your password</string>
+    <string name="error_invalid_credentials">The username and password you entered don\'t match</string>
+    <string name="error_login_unknown">Couldn\'t log in, please try again later</string>
+
+    <!-- LogInFragment ProgressDialog title and message -->
+    <string name="loading_title_login">Logging In</string>
+    <string name="loading_message_login">Verifying credentials...</string>
+
+    <!-- SignUpFragment ProgressDialog title and message -->
+    <string name="loading_title_sign_up">Signing Up</string>
+    <string name="loading_message_sign_up">Please wait...</string>
+
+    <!-- General hints -->
+    <string name="hint_email">Email</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_pass">Password</string>
+    <string name="hint_first_name">First Name</string>
+    <string name="hint_last_name">Last Name</string>
+
+    <!-- General labels -->
+    <string name="label_gender_male">Male</string>
+    <string name="label_gender_female">Female</string>
+
+    <!-- Drawer accessibility strings -->
+    <string name="access_drawer_open">Open Drawer</string>
+    <string name="access_drawer_close">Close Drawer</string>
+
+    <!-- General error messages -->
+    <string name="error_no_internet">Unable to connect, please check your internet connection</string>
+    <string name="error_empty_first_name">Please enter your first name</string>
+    <string name="error_empty_last_name">Please enter your last name</string>
+    <string name="error_empty_email">Please enter your email</string>
+    <string name="error_min_pass_len">Password must be at least 6 character long</string>
+    <string name="error_invalid_email">Email is invalid, please correct it and try again</string>
+    <string name="error_username_taken">Username is already taken, please choose a different one</string>
+    <string name="error_email_taken">Email is already taken, please use another one</string>
+    <string name="error_sign_up_unknown">Couldn\'t sign up, please try again later</string>
+    <string name="error_gender_not_set">Please select your gender</string>
+
+    <!-- to delete -->
+    <string name="confirm_sign_up_success">Sign Up Successful!</string>
+    <string name="confirm_log_in_success">Log In Successful!</string>
+    <string name="title_activity_post">PostActivity</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string-array name="media_chooser_array">
+        <item>Take Picture</item>
+        <item>Take Video</item>
+        <item>Choose Picture</item>
+        <item>Choose Video</item>
+    </string-array>
+
+    <string name="title_activity_post_display">PostDisplayActivity</string>
+
+</resources>
