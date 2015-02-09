@@ -8,19 +8,19 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 import com.samsidx.ismappbeta.data.ScheduleData;
 
-class DBHelper extends SQLiteOpenHelper {
+public class DBHelper extends SQLiteOpenHelper {
 
 	private static final int DATABASE_VERSION = 1;
 	private static final String DATABASE_NAME = "ism";
 
 	// Table Names
-	static final String TABLE_SCHEDULE = "schedule";
+    static final String TABLE_SCHEDULE = "schedule";
 
 	// Common column names
-	static final String KEY_ID = "_id";
-	static final String KEY_SUB = "sub";
-	static final String KEY_SLOT = "slot";
-	static final String KEY_DAY = "day";
+    public static final String KEY_ID = "_id";
+    public static final String KEY_SUB = "sub";
+    public static final String KEY_SLOT = "slot";
+    public static final String KEY_DAY = "day";
 
 	// Table Create Statements
 	private static final String CREATE_TABLE_SCHEDULE = "CREATE TABLE "

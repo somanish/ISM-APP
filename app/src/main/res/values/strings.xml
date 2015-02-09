@@ -68,6 +68,28 @@
         <item>Choose Video</item>
     </string-array>
 
+    <!-- Schedule Fragment-->
+    <string-array name="Time">
+        <item>08:00 am</item>
+        <item>08:50 am</item>
+        <item>09:40 am</item>
+        <item>10:30 am</item>
+        <item>11:20 am</item>
+        <item>01:30 pm</item>
+        <item>02:20 pm</item>
+        <item>03:10 pm</item>
+        <item>04:00 pm</item>
+        <item>04:50 pm</item>
+        <item>05:40 pm</item>
+    </string-array>
+    <string-array name="Day">
+        <item>Mon</item>
+        <item>Tue</item>
+        <item>Wed</item>
+        <item>Thu</item>
+        <item>Fri</item>
+    </string-array>
+
     <string name="title_activity_post_display">PostDisplayActivity</string>
 
 </resources>

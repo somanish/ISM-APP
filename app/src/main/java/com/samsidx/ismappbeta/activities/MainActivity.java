@@ -9,6 +9,7 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -22,6 +23,7 @@ import android.widget.Toast;
 import com.samsidx.ismappbeta.R;
 import com.samsidx.ismappbeta.adapters.NavListAdapter;
 import com.samsidx.ismappbeta.data.NavListItem;
+import com.samsidx.ismappbeta.fragments.ScheduleFragment;
 
 import java.util.ArrayList;
 
@@ -61,7 +63,11 @@ public class MainActivity extends ActionBarActivity {
         // TODO: populate navigation drawer
         mNavListItems.add(new NavListItem(null, "Majeed Siddiqui", "3rd - BTech - CSE"));
         for (int i = 0; i < 20; ++i) {
-            mNavListItems.add(new NavListItem("Home", 0));
+            //To be made a string array, Fix just for now
+            if(i==3)
+                mNavListItems.add(new NavListItem("Schedule", 3));
+            else
+                mNavListItems.add(new NavListItem("Home", 0));
         }
 
         // create and set navigation adapter
@@ -179,6 +185,9 @@ public class MainActivity extends ActionBarActivity {
                 break;
             case 2:
                 fragment = PlaceHolderFragment.newInstance("Groups", 2);
+                break;
+            case 3:
+                fragment = ScheduleFragment.newInstance();
                 break;
             default:
                 fragment = PlaceHolderFragment.newInstance("Groups", 2);
